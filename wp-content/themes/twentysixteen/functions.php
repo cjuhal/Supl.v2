@@ -434,12 +434,3 @@ function twentysixteen_widget_tag_cloud_args( $args ) {
 add_filter( 'widget_tag_cloud_args', 'twentysixteen_widget_tag_cloud_args' );
 
 include('suplement-conf.php');
-// include('noticiasxcategoria.php');
-function add_scripts_function() {
-
-  wp_enqueue_script( 'noticias', get_template_directory_uri() . '/js/noticias.js');
-
-}
-
-add_action('wp_enqueue_scripts','add_scripts_function');
-add_action( 'admin_enqueue_scripts', 'add_scripts_function' );

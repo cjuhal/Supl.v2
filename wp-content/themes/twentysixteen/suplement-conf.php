@@ -335,7 +335,7 @@ add_action('manage_posts_custom_column', 'custom_columns_content', 10, 2);
 
 function g1v3m3_suplementos(){
   $titulos = Array('Portada','Entrevista','Libros Libres','Noticia Relacionada [izquierda]', 'Noticia Relacionada [centro]','Noticia Relacionada [derecha]');
-
+  $content="";  
   foreach ($titulos as $index => $titulo) {
     $content .= "<tr>";
       $content .= "<td>";

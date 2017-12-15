@@ -20,7 +20,7 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define('DB_NAME', 'nodalcultura');
+define('DB_NAME', 'suplV2');
 
 /** MySQL database username */
 define('DB_USER', 'root');
