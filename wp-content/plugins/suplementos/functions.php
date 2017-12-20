@@ -109,8 +109,10 @@ include('suplemento-config.php');
   function valakax_insertar_js(){
     	wp_register_script('ajax', plugins_url(). '/suplementos/js/ajax.js', array('jquery'), '1.1', true );
     	wp_enqueue_script('ajax');
-     wp_enqueue_style( 'loading', plugins_url( '/css/loading.css', __FILE__ ) );
-
+      wp_enqueue_style( 'loading', plugins_url( '/css/loading.css', __FILE__ ) );
+      wp_enqueue_style( 'suplemento', plugins_url( '/css/suplemento.css', __FILE__ ) );
+      wp_enqueue_style( 'vcomposer', plugins_url( '/css/js_composer.min.css', __FILE__ ) );
+      wp_enqueue_style( 'style', plugins_url( '/css/style.css', __FILE__ ) );
     	wp_localize_script('ajax','ajax_vars',['ajaxurl'=>admin_url('admin-ajax.php')]);
   }
 

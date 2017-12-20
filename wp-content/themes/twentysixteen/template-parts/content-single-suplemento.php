@@ -10,16 +10,17 @@
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<header class="entry-header">
-		<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
+		<?php //the_title( '<h1 class="entry-title">', '</h1>' ); ?>
 	</header><!-- .entry-header -->
 
-	<?php twentysixteen_excerpt(); ?>
+	<?php //twentysixteen_excerpt(); ?>
 
-	<?php twentysixteen_post_thumbnail(); ?>
+	<?php //twentysixteen_post_thumbnail(); ?>
 
-	<div class="entry-content">
+	<!-- <div class="entry-content"> -->
+	<div>
 		<?php
-			the_content();
+			//the_content();
 
 			wp_link_pages( array(
 				'before'      => '<div class="page-links"><span class="page-links-title">' . __( 'Pages:', 'twentysixteen' ) . '</span>',
@@ -35,7 +36,12 @@
 			}
 
 		?>
-		<h1>ALAN WALKER</h1>
+		<?php
+
+			// include(plugins_url(). '/suplementos/suplemento-view.php');
+			include('suplemento-view.php');
+
+		 ?>
 	</div><!-- .entry-content -->
 
 	<footer class="entry-footer">

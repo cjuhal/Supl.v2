@@ -33,7 +33,7 @@ function especiales() {
  );
  $args = array(
    'labels'        => $labels,
-   'description'   => 'Holds our Contratacions and Contratacion specific data',
+   'description'   => 'Todos los suplementos',
    'public'        => true,
    'menu_position' => 5,
    'supports'      => array( 'title', 'editor', 'thumbnail', 'excerpt' ),
