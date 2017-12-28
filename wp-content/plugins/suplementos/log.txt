@@ -1,0 +1,13 @@
+<br />
+<b>Warning</b>:  copy(C:\Users\cjuhal\Documents\PROYECTOS\UniServerZ\www\wordpress\Supl.v2\wp-content\plugins\suplementos/export/suplemento-view.php): failed to open stream: No such file or directory in <b>C:\Users\cjuhal\Documents\PROYECTOS\UniServerZ\www\wordpress\Supl.v2\wp-content\plugins\suplementos\suplementos.php</b> on line <b>27</b><br />
+<script><alert>Error al copiar C:\Users\cjuhal\Documents\PROYECTOS\UniServerZ\www\wordpress\Supl.v2\wp-content\plugins\suplementos/export/suplemento-view.php...
+</alert></script><br />
+<b>Warning</b>:  copy(C:\Users\cjuhal\Documents\PROYECTOS\UniServerZ\www\wordpress\Supl.v2\wp-content\plugins\suplementos/export/content-single-suplemento.php): failed to open stream: No such file or directory in <b>C:\Users\cjuhal\Documents\PROYECTOS\UniServerZ\www\wordpress\Supl.v2\wp-content\plugins\suplementos\suplementos.php</b> on line <b>33</b><br />
+<script><alert>Error al copiar C:\Users\cjuhal\Documents\PROYECTOS\UniServerZ\www\wordpress\Supl.v2\wp-content\plugins\suplementos/export/content-single-suplemento.php...
+</alert></script><br />
+<b>Warning</b>:  copy(C:\Users\cjuhal\Documents\PROYECTOS\UniServerZ\www\wordpress\Supl.v2\wp-content\plugins\suplementos/export/single-suplemento.php): failed to open stream: No such file or directory in <b>C:\Users\cjuhal\Documents\PROYECTOS\UniServerZ\www\wordpress\Supl.v2\wp-content\plugins\suplementos\suplementos.php</b> on line <b>39</b><br />
+<script><alert>Error al copiar C:\Users\cjuhal\Documents\PROYECTOS\UniServerZ\www\wordpress\Supl.v2\wp-content\plugins\suplementos/export/single-suplemento.php...
+</alert></script><br />
+<b>Warning</b>:  copy(C:\Users\cjuhal\Documents\PROYECTOS\UniServerZ\www\wordpress\Supl.v2\wp-content\plugins\suplementos/export/archive-suplemento.php): failed to open stream: No such file or directory in <b>C:\Users\cjuhal\Documents\PROYECTOS\UniServerZ\www\wordpress\Supl.v2\wp-content\plugins\suplementos\suplementos.php</b> on line <b>45</b><br />
+<script><alert>Error al copiar C:\Users\cjuhal\Documents\PROYECTOS\UniServerZ\www\wordpress\Supl.v2\wp-content\plugins\suplementos/export/archive-suplemento.php...
+</alert></script>

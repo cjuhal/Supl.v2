@@ -1,23 +1,5 @@
 <?php
 
-/**
- * Plugin Name: Suplementos
- * Plugin URI: http://www.valakax.com
- * Description: Plugin para administrar e incluir las paginas para los especiales de fin de semana
- * Version: 1.0.0
- * Author: Christian Juhal
- * Author URI: http://www.valakax.com (coming soon)
- * License: GPL2
- */
-
-/* include archivos de configuración */
-
-include('suplemento-config.php');
-//include('todos-los-suplementos-config.php');
-//include('otros-meta-box-config.php');
-
-
-
 /* Genera el array de los campos */
  function getSuplementos(){
    $suplementos = array();
